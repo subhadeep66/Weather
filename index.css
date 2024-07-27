@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/weather.jpg);
+    background-size: cover;
+}
+.main{
+    width:20%;
+    margin: auto;
+    position: relative;
+    top: 35vh;
+}
+#city{
+    width: 250px;
+    display: block;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-style: none;
+    font-size: 14x;
+    border-width: 0;
+}
+#btn1{
+    width: 100px;
+    position: relative;
+    left:85px;
+    padding: 7px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgba(36, 36, 36, 0.749);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+#btn1:hover{
+    background-color: black;
+}
+.show{
+    width: 370px;
+    height: 30vh;
+    background-color: rgba(193, 190, 190, 0.26);
+    position: relative;
+    right: 10px;
+    margin-top: 30px;
+}
+.show h2{
+    padding: 10px 25px;
+    color: white;
+}
+.show p{
+    margin: 20px 50px;
+    font-size: 21px;
+}
+#voice img{
+    width: 20px;
+}
+#voice{
+    position: relative;
+    top: 33px;
+    left: 250px;
+    border-style: none;
+}
